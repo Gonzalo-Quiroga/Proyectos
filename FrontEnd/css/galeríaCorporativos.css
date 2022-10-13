@@ -1,0 +1,210 @@
+/*=================================
+*================BODY==============
+*=================================*/
+
+@font-face {
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    src: url(/Multimedia/Fuentes/CHAMPAGNE\ &\ LIMOUSINES.TTF) format("truetype");
+}
+
+body {
+    background: rgba(0, 0, 0);
+    font-family: "CHAMPAGNE & LIMOUSINES";
+}
+
+/*=================================
+*==============HEADER==============
+*=================================*/
+
+.headerPrincipal {
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+#logoHeader-link {
+    width: 165px;
+}
+
+.containerHeader {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerPrincipal-nav {
+    display: flex;
+}
+
+.headerPrincipal-nav-link {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    margin: 0 0 0 10px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.headerPrincipal-nav-link::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #d6b377;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+
+.headerPrincipal-nav-link:hover {
+    color: white;
+}
+
+.headerPrincipal-nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/*=================================
+*==============MAIN================
+*=================================*/
+
+.containerGaleria {
+    width: 90%;
+    height: 100%;
+    margin: 150px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ .img {
+    width: 500px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.containerImg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s ease-in;
+    z-index: 1;
+}
+
+.move {
+    transform: translateY(0);
+}
+
+.img-show {
+    height: 80%;
+    display: block;
+    object-fit: cover;
+    transition: transform .2s .4s;
+    border-radius: 25px;
+    
+}
+
+.show {
+    transform: scale(1);
+}
+
+/*=================================
+*==============FOOTER==============
+*=================================*/
+
+.containerFooter {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 40px 90px;
+    position: relative;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.logoBotonesFooter {
+    border-right: 1px solid #d6b377;
+    padding-right: 200px;
+}
+
+#logoFooter {
+    width: 150px;
+    padding: 0 20px 10px;
+}
+
+.botonesFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.footerPrincipal-nav-link {
+    background: #d6b377ce;
+    border-radius: 15px;
+}
+
+.footerPrincipal-nav-link:hover {
+    background: #ad7c40;
+}
+
+.contactoFooter p {
+    color: white;
+    padding: 20px;
+}
+
+.hojaFooter {
+    position: absolute;
+    width: 400px;
+    right: -50px;
+    top: -100px;
+    rotate: -45deg;
+}
+
+/*=================================
+*============RESPONSIVE============
+*=================================*/
+
+@media screen and (max-width:1200px){
+
+    .containerGaleria{
+        margin: 0 auto 300px;
+    }
+
+    .img {
+        transform: scale(1.6);
+        margin-top: 250px;
+    }
+
+    .logoBotonesFooter {
+        padding-right: 100px;
+    }
+
+    .hojaFooter {
+        width: 350px;
+        right: -100px;
+    }
+
+    .img-show {
+        width: 90%;
+        height: 30%;
+        border-radius: 25px;
+    }
+}
