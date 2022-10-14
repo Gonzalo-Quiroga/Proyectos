@@ -248,13 +248,18 @@ body {
     justify-content: center;
 }
 
-.footerPrincipal-nav-link {
-    background: #d6b377ce;
-    border-radius: 15px;
+.fa-brands {
+    color: #d6b377ce;
 }
 
-.footerPrincipal-nav-link:hover {
-    background: #ad7c40;
+.footerPrincipal-nav-link {
+    background:none;
+    border-radius: 15px;
+    border: none;
+}
+
+.fa-brands:hover {
+    color: #ad7c40;
 }
 
 .contactoFooter p {
@@ -329,5 +334,10 @@ body {
     .hojaFooter {
         width: 350px;
         right: -100px;
+    }
+
+    .fa-brands {
+        transform: scale(1.4);
+        margin: 10px;
     }
 }

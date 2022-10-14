@@ -89,13 +89,12 @@ body {
 }
 
 .contentVideo {
-    top: 350px;
-    left: 180px;
+    top: 250px;
+    left: 200px;
     width: 100%;
     height: 100%;
     display: flex;
     position: relative;
-    text-align: center;
 }
 
 .tituloBienvenida {
@@ -109,8 +108,31 @@ body {
     display: inline;
     color: #d6b377;
     font-size: 80px;
-    font-family: "CHAMPAGNE & LIMOUSINES";
-    letter-spacing: 7px;
+    font-family: 'WindSong', cursive;
+    font-weight: 100;
+}
+
+.textoBienvenida{
+    color: white;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+.botonBienvenida {
+    color: black;
+    background: #d6b377ce;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 14px;
+    padding: 5px;
+    margin-right: 40px;
+}
+
+.botonBienvenida:hover {
+    background: #ad7c40;
+    cursor: pointer;
 }
 
 .videoPrincipal {
@@ -605,13 +627,18 @@ body {
     justify-content: center;
 }
 
-.footerPrincipal-nav-link {
-    background: #d6b377ce;
-    border-radius: 15px;
+.fa-brands {
+    color: #d6b377ce;
 }
 
-.footerPrincipal-nav-link:hover {
-    background: #ad7c40;
+.footerPrincipal-nav-link {
+    background:none;
+    border-radius: 15px;
+    border: none;
+}
+
+.fa-brands:hover {
+    color: #ad7c40;
 }
 
 .contactoFooter p {
@@ -635,6 +662,25 @@ body {
 
 @media screen and (max-width:1200px){
 
+    .contentVideo {
+        top: 0;
+        left: 0;
+        transform: scale(1.2);
+    }
+
+    .textoBienvenida {
+        font-size: 30px;
+    }
+
+    .botonBienvenida {
+        transform: scale(1.4);
+        margin: 10px 40px;
+    }
+
+    .fa-brands {
+        transform: scale(1.4);
+        margin: 10px;
+    }
 
     .tituloBienvenida {
         font-size: 100px;
