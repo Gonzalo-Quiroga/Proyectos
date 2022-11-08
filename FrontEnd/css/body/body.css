@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    src: url(/Multimedia/Fuentes/CHAMPAGNE\ &\ LIMOUSINES.TTF) format("truetype");
+}
+
+body {
+    background: rgba(0, 0, 0); 
+    font-family: "CHAMPAGNE & LIMOUSINES";
+}

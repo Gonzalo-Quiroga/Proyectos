@@ -1,0 +1,520 @@
+/*==================================
+*============== VIDEO ==============
+*=================================*/
+
+.videoPrincipal {
+    position: relative;
+    height: 100vh;
+}
+
+.containerVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95vh;
+}
+
+.containerVideo video {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.containerVideo::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.contentVideo {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+}
+
+.tituloBienvenida {
+    text-align: center;
+    color: white;
+    font-size: 70px;
+    font-family: "WindSong";
+    font-weight: 100;
+}
+
+.tituloBienvenida2 {
+    text-align: center;
+    color: #d6b377;
+    text-shadow: 2px 2px 4px black;
+    font-size: 140px;
+    font-family: "WindSong";
+    font-weight: 100;
+}
+
+.contentBienvenida {
+    align-items: center;
+    text-align: center;
+}
+
+.textoBienvenida{
+    color: white;
+    font-size: 25px;
+    padding: 30px 0 50px;
+}
+
+.botonBienvenida {
+    color: white;
+    background: #ad7c40;
+    font-size: 18px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 14px;
+    border: 1px solid #d6b377ce;
+    padding: 6px; 
+}
+
+.botonBienvenida:hover {
+    background: #d6b377ce;
+    cursor: pointer;
+}
+
+/*==================================
+*============= EQUIPO ==============
+*=================================*/
+
+.equipo {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.containerEquipo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.cardEquipo {
+    width: 500px;
+    height: 400px;
+    margin-right: -30px;
+    color: white;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transition: all 300ms;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.tituloEquipo {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "WindSong";
+    margin: 70px auto;
+}
+
+.tituloEquipo p {
+    color: #d6b377;
+    text-shadow: 2px 2px 4px black;
+    font-size: 55px;
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    letter-spacing: 5px;
+}
+
+.botonEquipo {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 6px 20px;
+    color: white;
+    background: #ad7c40;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 25px;
+    margin-bottom: 65px;
+}
+
+.botonEquipo:hover {
+    background: #d6b377ce;
+}
+
+.cardEquipo hr {
+    border: none;
+    width: 400px;
+    height: 1px;
+    background: #d6b377;
+}
+
+#imagenEquipo {
+    width: 800px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    z-index: 1;
+}
+
+#hoja1 {
+    position: absolute; 
+    left: -30px;
+    bottom: -30px;
+    width: 550px;
+    z-index: 1;
+    animation: t1 8s ease infinite;
+    rotate: 5deg;
+}
+
+@keyframes t1 {
+    0% {
+        transform: scaleX(-1) translateY(0px);
+    }
+    50% {
+        transform: scaleX(-1) translateY(20px);
+    }
+    100% {
+        transform: scaleX(-1) translateY(0px);
+    }
+}
+
+/*==================================
+*============ SERVICIOS ============
+*=================================*/
+
+.servicios {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+    background: rgba(214, 179, 119, 0.5);
+}
+
+.containerServicios {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.cardServicios {
+    width: 500px;
+    height: 400px;
+    margin-left: -30px;
+    color: white;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    transition: all 300ms;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.tituloServicios {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "WindSong";
+    margin: 70px auto;
+    
+}
+
+.tituloServicios p {
+    color: #d6b377;
+    text-shadow: 2px 2px 4px black;
+    font-size: 55px;
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    letter-spacing: 5px;
+}
+
+.botonServicios {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 6px 20px;
+    color: white;
+    background: #ad7c40;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 25px;
+    margin-bottom: 65px;
+}
+
+.botonServicios:hover {
+    background: #d6b377ce;
+}
+
+.cardServicios hr {
+    border: none;
+    width: 400px;
+    height: 1px;
+    background: #d6b377;
+}
+
+#imagenServicios {
+    width: 800px;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+    z-index: 1;
+}
+
+#hoja2 {
+    position: absolute; 
+    right: -30px;
+    bottom: -30px;
+    width: 550px;
+    z-index: 1;
+    rotate: -5deg;
+    animation: t2 8s ease infinite;
+}
+
+@keyframes t2 {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+    
+/*==================================
+*============== FOTOS ==============
+*=================================*/
+
+.galeria {
+    width: 100%;
+    height: 110vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.containerGaleria {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardGaleria {
+    width: 500px;
+    height: 400px;
+    margin-right: -30px;
+    color: white;
+    box-shadow: -20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 25px;
+    transition: all 300ms;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.tituloGaleria {
+    font-size: 50px;
+    font-weight: 100;
+    font-family: "WindSong";
+    margin: 70px auto;
+}
+
+.tituloGaleria p {
+    color: #d6b377;
+    text-shadow: 2px 2px 4px black;
+    font-size: 55px;
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    letter-spacing: 5px;
+}
+
+.botonGaleria {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 6px 20px;
+    color: white;
+    background: #ad7c40;
+    text-decoration: none;
+    transition: 0.2s;
+    border-radius: 25px;
+    margin-bottom: 65px;
+}
+
+.botonGaleria:hover {
+    background: #d6b377ce;
+}
+
+.cardGaleria hr {
+    border: none;
+    width: 400px;
+    height: 1px;
+    background: #d6b377;
+}
+
+#imagenGaleria {
+    width: 800px;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+
+/*==================================
+*====== IMG PARA RESPONSIVE =======
+*=================================*/
+
+.coverCard {
+    position: absolute;
+    left: 5000px;
+}
+
+/*==================================
+*============ ELEGIRNOS ============
+*=================================*/
+
+.containerTitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+}
+
+.titulo {
+    color: white;
+    font-size: 70px;
+    font-family: "WindSong";
+    font-weight: 100;
+}
+
+.titulo p {
+    display: inline;
+    color: #d6b377;
+    text-shadow: 2px 2px 4px black;
+    font-size: 55px;
+    font-family: "CHAMPAGNE & LIMOUSINES";
+    letter-spacing: 15px;
+    margin-left: 10px;
+}
+
+.elegirnos {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    background: rgba(214, 179, 119, 0.5);
+    padding-bottom: 100px;
+}
+
+.containerElegirnos {
+    width: 1200px;
+    margin: auto;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contentElegirnos {
+    margin: 20px;
+    perspective: 1000px;
+}
+
+.contentElegirnos:hover .elegirnosCard {
+    transform: rotateY(180deg);
+}
+
+.elegirnosCard {
+    width: 350px;
+    height: 300px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: all 800ms;
+    border-radius: 25px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.elegirnosFront, .elegirnosBack {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+}
+
+.elegirnosBack {
+    transform: rotateY(180deg);
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background: #d6b377ce;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.bodyElegirnosFront {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 43px;
+    font-weight: 100;
+    font-family: "WindSong";
+}
+
+.bodyElegirnosFront hr {
+    margin-top: 50px;
+    border: none;
+    width: 250px;
+    height: 1px;
+    background: #d6b377;
+}
+
+.bodyElegirnosBack {
+    padding: 30px;
+    text-align: center;
+}
+
+.bodyElegirnosBack p {
+    font-size: 28px;
+}

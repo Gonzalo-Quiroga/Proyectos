@@ -1,0 +1,51 @@
+/*=================================
+*============= FOTOS ==============
+*=================================*/
+
+.containerGaleria {
+    width: 90%;
+    height: 100%;
+    margin: 150px auto;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ .img {
+    width: 500px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+}
+
+.containerImg {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s ease-in;
+    z-index: 1;
+}
+
+.move {
+    transform: translateY(0);
+}
+
+.img-show {
+    height: 80%;
+    display: block;
+    object-fit: cover;
+    transition: transform .2s .4s;
+    border-radius: 25px;
+    
+}
+
+.show {
+    transform: scale(1);
+}

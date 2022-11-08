@@ -1,0 +1,83 @@
+/*=================================
+*============RESPONSIVE============
+*=================================*/
+
+@media screen and (max-width:1680px) {
+
+    .hoja1 {
+        width: 480px;
+    }
+
+    .hoja2 {
+        width: 480px;
+    }
+
+}
+
+@media screen and (max-width:1200px){
+
+    .titulo {
+        margin-top: 100px;
+        font-size: 70px;
+    }
+
+    .titulo p {
+        font-size: 60px;
+    }
+
+    .hoja1 {
+        width: 480px;
+        top: -130px;
+        right: -160px;
+        rotate: -45deg;
+    }
+
+    .hoja2 {
+        width: 480px;
+        top: -130px;
+        left: -160px;
+        rotate: 45deg;
+    }
+
+    .containerGeneral {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+    }
+
+    .containerCard2 {
+        display: flex;
+        align-items: center;
+        margin: -200px 0 100px;
+    }
+
+    .card {
+        margin-top: 200px;
+        transform: scale(1.1);
+    }
+
+    .cardRedes {
+        margin-top: 400px;
+        transform: scale(1.7);
+    }
+
+    .cardUbicacion {
+        margin: 400px 0 250px;
+        transform: scale(1.7);
+    }
+
+    .logoBotonesFooter {
+        padding-right: 100px;
+    }
+
+    .hojaFooter {
+        width: 350px;
+        right: -100px;
+    }
+
+    .fa-brands {
+        transform: scale(1.4);
+        margin: 10px;
+    }
+}
