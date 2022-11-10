@@ -3,151 +3,155 @@
 *=================================*/
 
 .containerTitulo {
-    width: 100%;
-    height: 320px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .titulo {
-    margin-top: 100px;
-    color: white;
-    font-size: 80px;
-    font-family: "WindSong";
-    font-weight: 100;
+  margin-top: 100px;
+  color: white;
+  font-size: 80px;
+  font-family: "WindSong";
+  font-weight: 100;
 }
 
 .titulo p {
-    display: inline;
-    color: #d6b377;
-    font-size: 70px;
-    font-family: "CHAMPAGNE & LIMOUSINES";
-    letter-spacing: 15px;
+  display: inline;
+  color: #d6b377;
+  font-size: 70px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 15px;
 }
 
 .hoja1 {
-    width: 520px;
-    animation: t1 8s ease infinite;
-    position: absolute;
-    right: -50px;
-    top: -150px;
-    rotate: -55deg;
+  width: 520px;
+  animation: t1 8s ease infinite;
+  position: absolute;
+  right: -50px;
+  top: -150px;
+  rotate: -55deg;
 }
 
 .hoja2 {
-    width: 520px;
-    animation: t2 8s ease infinite;
-    position: absolute;
-    left: -50px;
-    top: -150px;
-    rotate: 55deg;
+  width: 520px;
+  animation: t2 8s ease infinite;
+  position: absolute;
+  left: -50px;
+  top: -150px;
+  rotate: 55deg;
 }
 
 @keyframes t1 {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(20px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 @keyframes t2 {
-    0% {
-        transform: scaleX(-1) translateY(0px);
-    }
-    50% {
-        transform: scaleX(-1) translateY(20px);
-    }
-    100% {
-        transform: scaleX(-1) translateY(0px);
-    }
+  0% {
+    transform: scaleX(-1) translateY(0px);
+  }
+  50% {
+    transform: scaleX(-1) translateY(20px);
+  }
+  100% {
+    transform: scaleX(-1) translateY(0px);
+  }
 }
 
 .containerCards {
-    width: 100%;
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .card {
-    width: 70%;
-    height: 100%;
-    margin: 150px 110px;
-    padding: 30px;
-    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 25px;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    transition: all 300ms;
-    display: flex;
-    align-items: center;
+  width: 70%;
+  height: 100%;
+  margin: 150px 110px;
+  padding: 30px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+  display: flex;
+  align-items: center;
 }
 
 .coverCard {
-    width: 50%;
-    border-radius: 25px;
-    overflow: hidden;
+  width: 50%;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .card:hover .coverCard img {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .textCard {
-    text-align: center;
-    margin: auto;
+  text-align: center;
+  margin: auto;
 }
 
 img {
-    width: 100%;
-    transition: all 300ms;
+  width: 100%;
+  transition: all 300ms;
 }
 
 .card h2 {
-    font-size: 60px;
-    font-weight: 100;
-    color: white;
-    font-family: "WindSong";
-    margin-bottom: 10px;
-}
-
-.card hr {
-    border: none;
-    height: 2px;
-    background: #d6b377; 
-    margin-bottom: 30px;
+  font-size: 60px;
+  font-weight: 100;
+  color: white;
+  font-family: "WindSong";
+  margin-bottom: 10px;
 }
 
 .card button {
-    padding: 10px 10px;
-    color: black;
-    background: #d6b377ce;
-    border: none;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-decoration: none;
-    transition: 0.2s;
-    border-radius: 25px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
+  color: #d6b377;
+  background: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: 0.2s;
+  border-radius: 14px;
+  border: 3px groove #ad7c40;
+  padding: 8px 15px;
+  text-decoration: none;
+  margin: 50px 0;
 }
 
 .card button:hover {
-    background: #ad7c40;
-    cursor: pointer;
+  background: #ad7c40;
+  color: #d6b377;
+  text-shadow: 2px 2px 4px black;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #d6b377;
+}
+
+.card hr {
+  margin-top: 50px;
+  border: none;
+  height: 2px;
+  background: #d6b377;
 }

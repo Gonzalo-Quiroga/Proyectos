@@ -2,34 +2,33 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width:1200px){
+@media screen and (max-width: 1200px) {
+  .containerGaleria {
+    margin: 0 auto 300px;
+  }
 
-    .containerGaleria{
-        margin: 0 auto 300px;
-    }
+  .img {
+    transform: scale(1.6);
+    margin-top: 250px;
+  }
 
-    .img {
-        transform: scale(1.6);
-        margin-top: 250px;
-    }
+  .logoBotonesFooter {
+    padding-right: 100px;
+  }
 
-    .logoBotonesFooter {
-        padding-right: 100px;
-    }
+  .hojaFooter {
+    width: 350px;
+    right: -100px;
+  }
 
-    .hojaFooter {
-        width: 350px;
-        right: -100px;
-    }
+  .img-show {
+    width: 90%;
+    height: 30%;
+    border-radius: 25px;
+  }
 
-    .img-show {
-        width: 90%;
-        height: 30%;
-        border-radius: 25px;
-    }
-
-    .fa-brands {
-        transform: scale(1.4);
-        margin: 10px;
-    }
+  .fa-brands {
+    transform: scale(1.4);
+    margin: 10px;
+  }
 }

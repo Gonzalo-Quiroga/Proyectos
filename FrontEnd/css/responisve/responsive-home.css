@@ -2,135 +2,133 @@
 *============RESPONSIVE============
 *=================================*/
 
+@media screen and (max-width: 1200px) {
+  .contentVideo {
+    top: 0;
+    left: 0;
+    transform: scale(1.2);
+  }
 
-@media screen and (max-width:1200px){
+  .textoBienvenida {
+    font-size: 30px;
+  }
 
-    .contentVideo {
-        top: 0;
-        left: 0;
-        transform: scale(1.2);
-    }
+  .botonBienvenida {
+    transform: scale(1.4);
+    margin: 10px 40px;
+  }
 
-    .textoBienvenida {
-        font-size: 30px;
-    }
+  .fa-brands {
+    transform: scale(1.4);
+    margin: 10px;
+  }
 
-    .botonBienvenida {
-        transform: scale(1.4);
-        margin: 10px 40px;
-    }
+  .tituloBienvenida {
+    font-size: 100px;
+  }
 
-    .fa-brands {
-        transform: scale(1.4);
-        margin: 10px;
-    }
+  .tituloBienvenida2 {
+    font-size: 100px;
+  }
 
-    .tituloBienvenida {
-        font-size: 100px;
-    }
+  .contentVideo {
+    top: -100px;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .tituloBienvenida2 {
-        font-size: 100px;
-    }
+  .videoPrincipal {
+    height: 80vh;
+  }
 
-    .contentVideo {
-        top: -100px;
-        left: 0;
-        align-items: center;
-        justify-content: center;
-    }
+  .equipo {
+    padding: 400px 0;
+    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Equipo/16 Martina LQ-91.JPG") center no-repeat;*/
+  }
 
-    .videoPrincipal {
-        height: 80vh;
-    }
+  .tituloEquipo {
+    margin-top: 330px;
+  }
 
-    .equipo {
-        padding: 400px 0;
-        /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Equipo/16 Martina LQ-91.JPG") center no-repeat;*/
-    }
+  #imagenEquipo {
+    width: 0;
+  }
 
-    .tituloEquipo {
-        margin-top: 330px;
-    }
+  .cardEquipo {
+    transform: scale(1.3);
+    width: 600px;
+    height: 700px;
+  }
 
-    #imagenEquipo {
-        width: 0;
-    }
+  .coverCard {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    left: 0;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
+  }
 
-    .cardEquipo {
-        transform: scale(1.3);
-        width: 600px;
-        height: 700px;
-    }
+  .coverCard img {
+    margin-top: 10px;
+    width: 92%;
+    padding: 15px;
+    border-radius: 35px;
+  }
 
-    .coverCard{
-        width: 100%;
-        height: 300px;
-        overflow: hidden;
-        left: 0;
-        box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.5);
-    }
+  .servicios {
+    padding: 400px 0;
+    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/16 Martina LQ-69.JPG") center no-repeat;*/
+  }
 
-    .coverCard img {
-        margin-top: 10px;
-        width: 92%;
-        padding: 15px;
-        border-radius: 35px;
-    }
+  .tituloServicios {
+    margin-top: 335px;
+  }
 
-    .servicios {
-        padding: 400px 0;
-        /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/16 Martina LQ-69.JPG") center no-repeat;*/
-    }
+  #imagenServicios {
+    width: 0;
+  }
 
-    .tituloServicios {
-        margin-top: 335px;
-    }
+  .cardServicios {
+    transform: scale(1.3);
+    width: 600px;
+    height: 700px;
+  }
 
-    #imagenServicios {
-        width: 0;
-    }
+  .galeria {
+    padding: 400px 0;
+    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/Gime-y-Franco-Casamiento-Emilia-Gualdoni-Fotografia-565.jpg") center no-repeat;*/
+  }
 
-    .cardServicios {
-        transform: scale(1.3);
-        width: 600px;
-        height: 700px;
-    }
+  .tituloGaleria {
+    margin-top: 330px;
+  }
 
-    .galeria {
-        padding: 400px 0;
-        /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/Gime-y-Franco-Casamiento-Emilia-Gualdoni-Fotografia-565.jpg") center no-repeat;*/
-    }
+  #imagenGaleria {
+    width: 0;
+  }
 
-    .tituloGaleria {
-        margin-top: 330px;
-    }
+  .cardGaleria {
+    transform: scale(1.3);
+    width: 600px;
+    height: 700px;
+  }
 
-    #imagenGaleria {
-        width: 0;
-    }
+  .contentElegirnos {
+    transform: scale(1.3);
+    margin: 70px;
+  }
 
-    .cardGaleria {
-        transform: scale(1.3);
-        width: 600px;
-        height: 700px;
-    }
+  .containerElegirnos {
+    width: 1000px;
+  }
 
-    .contentElegirnos {
-        transform: scale(1.3);
-        margin: 70px;
-    }
+  .logoBotonesFooter {
+    padding-right: 100px;
+  }
 
-    .containerElegirnos {
-        width: 1000px;
-    }
-
-    .logoBotonesFooter {
-        padding-right: 100px;
-    }
-
-    .hojaFooter {
-        width: 350px;
-        right: -100px;
-    }
+  .hojaFooter {
+    width: 350px;
+    right: -100px;
+  }
 }
