@@ -1,0 +1,10 @@
+.containerHeaderHome {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+  position: absolute;
+  padding: 25px 0;
+}

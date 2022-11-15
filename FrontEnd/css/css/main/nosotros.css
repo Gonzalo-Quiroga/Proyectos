@@ -1,0 +1,232 @@
+/*==================================
+*=========== NOSOTROS ==============
+*=================================*/
+
+.containerTitulo {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.titulo {
+  margin-top: 100px;
+  color: white;
+  font-size: 80px;
+  font-family: "WindSong";
+  font-weight: 100;
+}
+
+.titulo p {
+  display: inline;
+  color: #d6b377;
+  font-size: 70px;
+  font-family: "Quicksand", sans-serif;
+  letter-spacing: 15px;
+}
+
+.hoja1 {
+  width: 520px;
+  animation: t1 8s ease infinite;
+  position: absolute;
+  right: -50px;
+  top: -150px;
+  rotate: -55deg;
+}
+
+.hoja2 {
+  width: 520px;
+  animation: t2 8s ease infinite;
+  position: absolute;
+  left: -50px;
+  top: -150px;
+  rotate: 55deg;
+}
+
+@keyframes t1 {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes t2 {
+  0% {
+    transform: scaleX(-1) translateY(0px);
+  }
+  50% {
+    transform: scaleX(-1) translateY(20px);
+  }
+  100% {
+    transform: scaleX(-1) translateY(0px);
+  }
+}
+
+.containerCards {
+  width: 100%;
+  margin: 250px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.coverCard {
+  width: 900px;
+  border-radius: 25px;
+  border: 3px groove #ad7c40;
+  opacity: 0.9;
+}
+
+.coverCard2 {
+  width: 900px;
+  border-radius: 25px;
+  border: 3px groove #ad7c40;
+  opacity: 0.9;
+}
+
+.sliderFrame {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.sliderFrame ul {
+  display: flex;
+  width: 400%;
+
+  animation: slide 30s infinite alternate ease-in-out;
+}
+
+.sliderFrame li {
+  width: 100%;
+  list-style: none;
+}
+
+.sliderFrame img {
+  width: 100%;
+}
+
+@keyframes slide {
+  0% {
+    margin-left: 0;
+  }
+  20% {
+    margin-left: 0;
+  }
+
+  25% {
+    margin-left: -100%;
+  }
+  45% {
+    margin-left: -100%;
+  }
+
+  50% {
+    margin-left: -200%;
+  }
+  70% {
+    margin-left: -200%;
+  }
+
+  75% {
+    margin-left: -300%;
+  }
+  100% {
+    margin-left: -300%;
+  }
+}
+
+.card {
+  width: 450px;
+  height: 550px;
+  padding: 40px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.card h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #d6b377;
+  font-family: "WindSong";
+}
+
+.card p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 0.5px;
+  padding: 15px;
+}
+
+.card hr {
+  margin-top: 50px;
+  border: none;
+  height: 2px;
+  background: #d6b377;
+}
+
+.card2 {
+  width: 450px;
+  height: 550px;
+  padding: 40px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.card2 h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #d6b377;
+  font-family: "WindSong";
+}
+
+.card2 p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 0.5px;
+  padding: 15px;
+}
+
+.card2 hr {
+  margin-top: 50px;
+  border: none;
+  height: 2px;
+  background: #d6b377;
+}
+
+.containerCards2 {
+  width: 100%;
+  margin: 250px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

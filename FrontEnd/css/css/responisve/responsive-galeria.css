@@ -1,0 +1,97 @@
+/*=================================
+*============RESPONSIVE============
+*=================================*/
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
+  .hoja1 {
+    width: 480px;
+    right: -100px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -100px;
+  }
+
+  .containerCards {
+    margin-top: 280px;
+  }
+
+  .card {
+    transform: scale(0.9);
+    margin-top: -50px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .titulo {
+    margin-top: 100px;
+    font-size: 70px;
+  }
+
+  .titulo p {
+    font-size: 60px;
+  }
+
+  .hoja1 {
+    width: 480px;
+    right: -120px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -120px;
+  }
+
+  .containerCards {
+    margin-top: 200px;
+  }
+
+  .card {
+    transform: scale(0.7);
+  }
+
+  .card h2 {
+    font-size: 70px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
+  .hoja1 {
+    width: 480px;
+    top: -130px;
+    right: -160px;
+    rotate: -45deg;
+  }
+
+  .hoja2 {
+    width: 480px;
+    top: -130px;
+    left: -160px;
+    rotate: 45deg;
+  }
+
+  .card {
+    margin-top: -80px;
+    height: 500px;
+  }
+
+  .coverCard {
+    width: 55%;
+  }
+
+  .card h2 {
+    font-size: 85px;
+  }
+
+  .card button {
+    font-size: 45px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin: 50px 0;
+  }
+}

@@ -1,0 +1,53 @@
+.containerFooter {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 40px 90px;
+  position: relative;
+  overflow: hidden;
+  border-top: 1px groove #d6b3774a;
+}
+
+.logoBotonesFooter {
+  border-right: 1px solid #d6b377;
+  padding-right: 200px;
+}
+
+#logoFooter {
+  width: 120px;
+  margin-left: 5px;
+  padding: 0 30px 20px;
+  opacity: 0.7;
+}
+
+.botonesFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-brands {
+  color: #d6b377ce;
+}
+
+.fa-brands:hover {
+  color: #ad7c40;
+}
+
+.footerPrincipal-nav-link {
+  background: none;
+  border: none;
+}
+
+.contactoFooter p {
+  color: white;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.hojaFooter {
+  position: absolute;
+  width: 400px;
+  right: -50px;
+  top: -100px;
+  rotate: -45deg;
+}

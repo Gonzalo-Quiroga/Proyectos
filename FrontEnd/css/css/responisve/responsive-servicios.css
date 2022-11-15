@@ -1,0 +1,85 @@
+/*=================================
+*============RESPONSIVE============
+*=================================*/
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
+  .hoja1 {
+    width: 480px;
+    right: -100px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -100px;
+  }
+
+  .containerCards {
+    margin-top: 100px;
+  }
+
+  .card {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .titulo {
+    margin-top: 100px;
+    font-size: 70px;
+  }
+
+  .titulo p {
+    font-size: 60px;
+  }
+
+  .hoja1 {
+    width: 480px;
+    right: -120px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -120px;
+  }
+
+  .containerCards {
+    margin-top: 70px;
+  }
+
+  .card {
+    margin-bottom: 100px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
+  .hoja1 {
+    width: 480px;
+    top: -130px;
+    right: -160px;
+    rotate: -45deg;
+  }
+
+  .hoja2 {
+    width: 480px;
+    top: -130px;
+    left: -160px;
+    rotate: 45deg;
+  }
+
+  .card {
+    transform: scale(1.2);
+    margin-top: 250px;
+  }
+
+  .card h2 {
+    font-size: 80px;
+  }
+
+  .card p {
+    font-size: 35px;
+  }
+}
