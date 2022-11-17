@@ -1,0 +1,36 @@
+@media screen and (max-width: 1365px) {
+  .logoBotonesFooter {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .hojaFooter {
+    width: 350px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .hojaFooter {
+    width: 350px;
+    right: -150px;
+  }
+
+  #logoFooter {
+    margin-left: -50px;
+  }
+
+  .botonesFooter {
+    margin-left: -50px;
+  }
+
+  .fa-brands {
+    transform: scale(1.8);
+    margin: 10px;
+  }
+
+  .contactoFooter p {
+    font-size: 20px;
+  }
+}

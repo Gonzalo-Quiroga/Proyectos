@@ -2,13 +2,25 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width: 1680px) {
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
   .hoja1 {
     width: 480px;
+    right: -100px;
   }
 
   .hoja2 {
     width: 480px;
+    left: -100px;
+  }
+
+  .containerCards {
+    margin-top: 100px;
+  }
+
+  .card {
+    width: 700px;
   }
 }
 
@@ -24,6 +36,28 @@
 
   .hoja1 {
     width: 480px;
+    right: -120px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -120px;
+  }
+
+  .containerCards {
+    margin-top: 70px;
+  }
+
+  .card {
+    margin-bottom: 100px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
+  .hoja1 {
+    width: 480px;
     top: -130px;
     right: -160px;
     rotate: -45deg;
@@ -36,28 +70,16 @@
     rotate: 45deg;
   }
 
-  .containerCards {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
-
   .card {
     transform: scale(1.2);
+    margin-top: 250px;
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
+  .card h2 {
+    font-size: 80px;
   }
 
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
-  }
-
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
+  .card p {
+    font-size: 35px;
   }
 }

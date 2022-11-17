@@ -2,26 +2,64 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width: 1680px) {
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
   .hoja1 {
     width: 480px;
+    right: -100px;
   }
 
   .hoja2 {
     width: 480px;
+    left: -100px;
+  }
+
+  .containerGeneral {
+    margin: 50px auto;
+  }
+
+  .containerCard2 {
+    margin-left: -50px;
+    transform: scale(0.9);
+  }
+
+  .card {
+    margin-left: -20px;
+    transform: scale(0.9);
   }
 }
 
 @media screen and (max-width: 1200px) {
-  .titulo {
-    margin-top: 100px;
-    font-size: 70px;
+  .hoja1 {
+    width: 480px;
+    right: -120px;
   }
 
-  .titulo p {
-    font-size: 60px;
+  .hoja2 {
+    width: 480px;
+    left: -120px;
   }
 
+  .containerGeneral {
+    margin: -30px auto;
+  }
+
+  .containerCard2 {
+    margin-left: -150px;
+    transform: scale(0.8);
+  }
+
+  .card {
+    margin-left: -30px;
+    margin-top: 150px;
+    transform: scale(0.8);
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
   .hoja1 {
     width: 480px;
     top: -130px;
@@ -50,31 +88,30 @@
   }
 
   .card {
-    margin-top: 200px;
+    margin-top: 300px;
+    margin-left: 40px;
+    height: 1220px;
     transform: scale(1.1);
+  }
+
+  .card input,
+  textarea {
+    padding: 40px;
+    font-size: 30px;
   }
 
   .cardRedes {
     margin-top: 400px;
-    transform: scale(1.7);
+    transform: scale(2.1);
   }
 
   .cardUbicacion {
-    margin: 400px 0 250px;
-    transform: scale(1.7);
+    margin: 600px 0 250px;
+    transform: scale(2.1);
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
-  }
-
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
-  }
-
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
+  .botonUbicacion {
+    font-size: 25px;
+    border-radius: 20px;
   }
 }

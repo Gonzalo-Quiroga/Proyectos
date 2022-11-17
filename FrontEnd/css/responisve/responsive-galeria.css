@@ -2,13 +2,26 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width: 1680px) {
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
   .hoja1 {
     width: 480px;
+    right: -100px;
   }
 
   .hoja2 {
     width: 480px;
+    left: -100px;
+  }
+
+  .containerCards {
+    margin-top: 280px;
+  }
+
+  .card {
+    transform: scale(0.9);
+    margin-top: -50px;
   }
 }
 
@@ -24,6 +37,32 @@
 
   .hoja1 {
     width: 480px;
+    right: -120px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -120px;
+  }
+
+  .containerCards {
+    margin-top: 200px;
+  }
+
+  .card {
+    transform: scale(0.7);
+  }
+
+  .card h2 {
+    font-size: 70px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
+  .hoja1 {
+    width: 480px;
     top: -130px;
     right: -160px;
     rotate: -45deg;
@@ -36,33 +75,20 @@
     rotate: 45deg;
   }
 
-  .containerCards {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+  .card {
+    margin-top: -80px;
+    height: 500px;
   }
 
-  .card {
-    transform: scale(1.3);
-    margin: 150px;
+  .coverCard {
+    width: 55%;
   }
 
   .card h2 {
-    font-size: 50px;
+    font-size: 85px;
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
-  }
-
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
-  }
-
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
+  .card button {
+    transform: scale(2.1);
   }
 }

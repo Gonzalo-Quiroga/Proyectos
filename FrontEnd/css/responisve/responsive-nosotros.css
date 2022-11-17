@@ -2,13 +2,37 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width: 1680px) {
+/*17 pulgadas*/
+
+@media screen and (max-width: 1365px) {
   .hoja1 {
     width: 480px;
+    right: -100px;
   }
 
   .hoja2 {
     width: 480px;
+    left: -100px;
+  }
+
+  .card {
+    transform: scale(0.9);
+  }
+
+  .card p {
+    margin-top: 50px;
+    font-size: 23px;
+    padding: 0px;
+  }
+
+  .card2 {
+    transform: scale(0.9);
+  }
+
+  .card2 p {
+    margin-top: 50px;
+    font-size: 23px;
+    padding: 0px;
   }
 }
 
@@ -24,6 +48,72 @@
 
   .hoja1 {
     width: 480px;
+    right: -120px;
+  }
+
+  .hoja2 {
+    width: 480px;
+    left: -120px;
+  }
+
+  .containerCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .containerCards2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1500px;
+  }
+
+  .coverCard {
+    transform: scale(1.1);
+  }
+
+  .coverCard2 {
+    transform: scale(1.1);
+    top: 0;
+    position: absolute;
+  }
+
+  .card {
+    margin-top: 60px;
+    width: 1000px;
+  }
+
+  .card h2 {
+    font-size: 70px;
+  }
+
+  .card p {
+    font-size: 32px;
+  }
+
+  .card2 {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 650px;
+  }
+
+  .card2 h2 {
+    font-size: 70px;
+  }
+
+  .card2 p {
+    font-size: 32px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1023px) {
+  .hoja1 {
+    width: 480px;
     top: -130px;
     right: -160px;
     rotate: -45deg;
@@ -36,37 +126,52 @@
     rotate: 45deg;
   }
 
-  .containerCards {
-    margin: 150px auto 300px;
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+  .coverCard {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    transform: scale(1);
+  }
+
+  .coverCard2 {
+    margin-top: -100px;
+    transform: scale(1);
   }
 
   .card {
-    transform: scale(1.2);
+    height: 850px;
+    width: 900px;
   }
 
   .card h2 {
-    margin-top: -130px;
+    font-size: 90px;
   }
 
   .card p {
-    margin-top: 15px;
+    font-size: 45px;
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
+  .card hr {
+    margin-top: 100px;
   }
 
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
+  .containerCards2 {
+    margin-bottom: 1800px;
   }
 
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
+  .card2 {
+    height: 850px;
+    width: 900px;
+  }
+
+  .card2 h2 {
+    font-size: 90px;
+  }
+
+  .card2 p {
+    font-size: 45px;
+  }
+
+  .card2 hr {
+    margin-top: 100px;
   }
 }

@@ -71,25 +71,30 @@
 
 .containerCards {
   width: 100%;
-  height: 200vh;
+  margin: 250px auto;
   display: flex;
-  justify-content: center;
-  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .coverCard {
-  width: 1200px;
+  width: 900px;
   border-radius: 25px;
-  overflow: hidden;
-  position: absolute;
-  align-items: center;
-  top: 750px;
   border: 3px groove #ad7c40;
+  opacity: 0.9;
+}
+
+.coverCard2 {
+  width: 900px;
+  border-radius: 25px;
+  border: 3px groove #ad7c40;
+  opacity: 0.9;
 }
 
 .sliderFrame {
   width: 100%;
   overflow: hidden;
+  border-radius: 25px;
 }
 
 .sliderFrame ul {
@@ -139,11 +144,8 @@
 }
 
 .card {
-  position: absolute;
-  align-items: center;
-  top: 200px;
-  width: 1000px;
-  height: 500px;
+  width: 450px;
+  height: 550px;
   padding: 40px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
@@ -157,26 +159,74 @@
 
 .card h2 {
   text-align: center;
-  font-size: 65px;
+  font-size: 45px;
   font-weight: 100;
-  margin-top: 35px;
+  margin-top: 10px;
   color: #d6b377;
   font-family: "WindSong";
 }
 
 .card p {
   text-align: center;
-  margin-top: 35px;
-  font-size: 25px;
+  margin-top: 25px;
+  font-size: 22px;
   font-weight: 100;
   color: white;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.5px;
   padding: 15px;
 }
 
 .card hr {
-  margin: 70px 0px;
+  margin-top: 50px;
   border: none;
   height: 2px;
   background: #d6b377;
+}
+
+.card2 {
+  width: 450px;
+  height: 550px;
+  padding: 40px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  transition: all 300ms;
+}
+
+.card2 h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  margin-top: 10px;
+  color: #d6b377;
+  font-family: "WindSong";
+}
+
+.card2 p {
+  text-align: center;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 100;
+  color: white;
+  letter-spacing: 0.5px;
+  padding: 15px;
+}
+
+.card2 hr {
+  margin-top: 50px;
+  border: none;
+  height: 2px;
+  background: #d6b377;
+}
+
+.containerCards2 {
+  width: 100%;
+  margin: 250px auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
