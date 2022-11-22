@@ -2,7 +2,7 @@
 *============RESPONSIVE============
 *=================================*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1223px) {
   .containerGaleria {
     margin: 0 auto 300px;
   }
@@ -12,23 +12,9 @@
     margin-top: 250px;
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
-  }
-
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
-  }
-
   .img-show {
     width: 90%;
-    height: 30%;
+    height: 85%;
     border-radius: 25px;
-  }
-
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
   }
 }

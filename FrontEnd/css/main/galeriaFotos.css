@@ -3,7 +3,7 @@
 *=================================*/
 
 .containerGaleria {
-  width: 90%;
+  width: 85%;
   height: 100%;
   margin: 150px auto;
   position: relative;
@@ -16,6 +16,7 @@
   width: 500px;
   margin-bottom: 50px;
   border-radius: 25px;
+  padding: 10px;
 }
 
 .containerImg {

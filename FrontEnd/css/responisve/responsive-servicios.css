@@ -72,14 +72,15 @@
 
   .card {
     transform: scale(1.2);
+    width: 75%;
     margin-top: 250px;
   }
 
   .card h2 {
-    font-size: 80px;
+    font-size: 100px;
   }
 
   .card p {
-    font-size: 35px;
+    font-size: 48px;
   }
 }

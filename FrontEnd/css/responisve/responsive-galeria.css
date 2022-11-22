@@ -77,11 +77,12 @@
 
   .card {
     margin-top: -80px;
-    height: 500px;
+    height: 550px;
+    width: 130%;
   }
 
   .coverCard {
-    width: 55%;
+    width: 57%;
   }
 
   .card h2 {

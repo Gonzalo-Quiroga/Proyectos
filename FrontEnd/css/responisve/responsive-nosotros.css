@@ -129,25 +129,25 @@
   .coverCard {
     margin-top: 20px;
     margin-bottom: 70px;
-    transform: scale(1);
+    width: 90%;
   }
 
   .coverCard2 {
     margin-top: -100px;
-    transform: scale(1);
+    width: 90%;
   }
 
   .card {
     height: 850px;
-    width: 900px;
+    width: 100%;
   }
 
   .card h2 {
-    font-size: 90px;
+    font-size: 100px;
   }
 
   .card p {
-    font-size: 45px;
+    font-size: 60px;
   }
 
   .card hr {
@@ -160,15 +160,15 @@
 
   .card2 {
     height: 850px;
-    width: 900px;
+    width: 100%;
   }
 
   .card2 h2 {
-    font-size: 90px;
+    font-size: 100px;
   }
 
   .card2 p {
-    font-size: 45px;
+    font-size: 60px;
   }
 
   .card2 hr {
