@@ -1,16 +1,152 @@
-/*=================================
-*============RESPONSIVE============
-*=================================*/
+@media screen and (max-width: 1600px) {
+  #hoja1 {
+    width: 470px;
+  }
 
-@media screen and (max-width: 1023px) {
+  #hoja2 {
+    width: 470px;
+  }
+}
+
+/*19 pulgadas*/
+
+@media screen and (max-width: 1366px) {
+  .containerVideo::after {
+    height: 250vh;
+  }
+
   .contentVideo {
-    top: 0;
-    left: 0;
-    transform: scale(1.2);
+    transform: scale(0.8);
+  }
+
+  .tituloBienvenida {
+    margin-top: 70px;
+  }
+
+  .equipo {
+    padding: 200px 0 0;
+  }
+
+  .cardEquipo {
+    transform: scale(0.8);
+    margin-right: -150px;
+  }
+
+  #imagenEquipo {
+    transform: scale(0.9);
+    margin-right: -50px;
+  }
+
+  #hoja1 {
+    width: 400px;
+  }
+
+  .cardServicios {
+    transform: scale(0.8);
+    margin-left: -150px;
+  }
+
+  #imagenServicios {
+    transform: scale(0.9);
+    margin-left: -50px;
+  }
+
+  #hoja2 {
+    width: 400px;
+  }
+
+  .cardGaleria {
+    transform: scale(0.8);
+    margin-right: -150px;
+  }
+
+  #imagenGaleria {
+    transform: scale(0.9);
+    margin-right: -50px;
+  }
+
+  .elegirnosCard {
+    transform: scale(0.9);
+  }
+}
+
+/*17 pulgadas*/
+
+@media screen and (max-width: 1280px) {
+  .containerVideo::after {
+    height: 250vh;
+  }
+
+  .equipo {
+    padding: 200px 0 0;
+  }
+
+  .cardEquipo {
+    transform: scale(0.8);
+    margin-right: -200px;
+  }
+
+  #imagenEquipo {
+    transform: scale(0.9);
+    margin-right: -50px;
+  }
+
+  .cardServicios {
+    transform: scale(0.8);
+    margin-left: -200px;
+  }
+
+  #imagenServicios {
+    transform: scale(0.9);
+    margin-left: -50px;
+  }
+
+  .cardGaleria {
+    transform: scale(0.8);
+    margin-right: -200px;
+  }
+
+  #imagenGaleria {
+    transform: scale(0.9);
+    margin-right: -50px;
+  }
+
+  .contentElegirnos {
+    transform: scale(1.3);
+    margin: 70px;
+  }
+
+  .containerElegirnos {
+    width: 1000px;
+  }
+}
+
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
+  .containerVideo {
+    height: 105vh;
+  }
+
+  .containerVideo::after {
+    height: 250vh;
+  }
+
+  .contentVideo {
+    margin-top: -120px;
+  }
+
+  .tituloBienvenida {
+    font-size: 90px;
+  }
+
+  .tituloBienvenida2 {
+    font-size: 155px;
   }
 
   .textoBienvenida {
-    font-size: 30px;
+    font-size: 32px;
+    margin: 10px 200px;
   }
 
   .botonBienvenida {
@@ -18,37 +154,10 @@
     margin: 10px 40px;
   }
 
-  .fa-brands {
-    transform: scale(1.4);
-    margin: 10px;
-  }
-
-  .tituloBienvenida {
-    font-size: 100px;
-  }
-
-  .tituloBienvenida2 {
-    font-size: 100px;
-  }
-
-  .contentVideo {
-    top: 100px;
-    left: 0;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .videoPrincipal {
-    height: 80vh;
-  }
-
   .equipo {
-    padding: 400px 0;
-    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Equipo/16 Martina LQ-91.JPG") center no-repeat;*/
-  }
-
-  .tituloEquipo {
-    margin-top: 330px;
+    width: 100%;
+    height: 100%;
+    padding: 805px 0 600px;
   }
 
   #imagenEquipo {
@@ -56,9 +165,11 @@
   }
 
   .cardEquipo {
-    transform: scale(1.3);
+    transform: scale(1.5);
     width: 600px;
     height: 700px;
+    margin-right: 60px;
+    margin-bottom: 60px;
   }
 
   .coverCard {
@@ -76,13 +187,22 @@
     border-radius: 35px;
   }
 
-  .servicios {
-    padding: 400px 0;
-    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/16 Martina LQ-69.JPG") center no-repeat;*/
+  .tituloEquipo {
+    margin-top: 330px;
   }
 
-  .tituloServicios {
-    margin-top: 335px;
+  .botonEquipo {
+    transform: scale(1.4);
+  }
+
+  #hoja1 {
+    width: 600px;
+  }
+
+  .servicios {
+    width: 100%;
+    height: 100%;
+    padding: 600px 0;
   }
 
   #imagenServicios {
@@ -90,18 +210,29 @@
   }
 
   .cardServicios {
-    transform: scale(1.3);
+    transform: scale(1.5);
     width: 600px;
     height: 700px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+  }
+
+  .tituloServicios {
+    margin-top: 330px;
+  }
+
+  .botonServicios {
+    transform: scale(1.4);
+  }
+
+  #hoja2 {
+    width: 600px;
   }
 
   .galeria {
-    padding: 400px 0;
-    /*background:linear-gradient(rgba(5, 7, 12, 0.3),rgba(5, 7, 12, 1.0)), url("/Multimedia/Decoración/Gime-y-Franco-Casamiento-Emilia-Gualdoni-Fotografia-565.jpg") center no-repeat;*/
-  }
-
-  .tituloGaleria {
-    margin-top: 330px;
+    width: 100%;
+    height: 100%;
+    padding: 600px 0;
   }
 
   #imagenGaleria {
@@ -109,9 +240,19 @@
   }
 
   .cardGaleria {
-    transform: scale(1.3);
+    transform: scale(1.5);
     width: 600px;
     height: 700px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+  }
+
+  .tituloGaleria {
+    margin-top: 330px;
+  }
+
+  .botonGaleria {
+    transform: scale(1.4);
   }
 
   .contentElegirnos {
@@ -123,12 +264,7 @@
     width: 1000px;
   }
 
-  .logoBotonesFooter {
-    padding-right: 100px;
-  }
-
-  .hojaFooter {
-    width: 350px;
-    right: -100px;
+  .bodyElegirnosBack p {
+    font-size: 30px;
   }
 }

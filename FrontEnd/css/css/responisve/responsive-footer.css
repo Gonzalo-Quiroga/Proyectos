@@ -1,17 +1,23 @@
-@media screen and (max-width: 1365px) {
+/*19 pulgadas*/
+
+@media screen and (max-width: 1366px) {
   .logoBotonesFooter {
     padding-right: 30px;
   }
 }
 
-@media screen and (max-width: 1200px) {
+/*17 pulgadas*/
+
+@media screen and (max-width: 1280px) {
   .hojaFooter {
     width: 350px;
     right: -50px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
   .hojaFooter {
     width: 350px;
     right: -150px;
@@ -31,6 +37,6 @@
   }
 
   .contactoFooter p {
-    font-size: 21px;
+    font-size: 20px;
   }
 }

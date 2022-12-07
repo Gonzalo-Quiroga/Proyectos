@@ -1,0 +1,11 @@
+/*14 pulgadas*/
+
+@media screen and (max-width: 1024px) {
+  #logoHeader-link {
+    width: 160px;
+  }
+
+  .headerPrincipal-nav-link {
+    font-size: 21px;
+  }
+}
