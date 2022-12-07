@@ -12,11 +12,20 @@
   }
 
   .containerCards {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 
   .card {
-    width: 700px;
+    width: 620px;
+    transform: scale(0.8);
+  }
+
+  .card h2 {
+    font-size: 80px;
+  }
+
+  .card p {
+    font-size: 30px;
   }
 }
 
