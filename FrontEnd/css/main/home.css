@@ -488,8 +488,7 @@
 .elegirnosBack {
   transform: rotateY(180deg);
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  /*background-image: url(/Multimedia/Detalles/c89e0a4d72bb3ad54c12c5881d50cdda.gif);*/
-  background: black;
+  background-image: url(/FrontEnd/Multimedia/Detalles/c89e0a4d72bb3ad54c12c5881d50cdda.gif);
   border: 3px groove #ad7c40;
   color: white;
   text-shadow: 2px 2px 4px black;
