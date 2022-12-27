@@ -1,2 +1,2 @@
 # Sonia-Auban-Web
-Diseño Web para Sonia Auban (Organización de eventos)
+Diseño Web con formulario de consultas para Sonia Auban (Empresa organizadora de eventos)
